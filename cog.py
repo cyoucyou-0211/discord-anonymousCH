@@ -10,16 +10,7 @@ from discord.ext import commands
 
 
 def anonymous_name(number):
-    return (
-        chr(0x3010)
-        + chr(0x540d)
-        + chr(0x7121)
-        + chr(0x306e)
-        + str(number)
-        + chr(0x3055)
-        + chr(0x3093)
-        + chr(0x3011)
-    )
+    return f"【名無しの{number}さん】"
 
 
 class AnonymousModal(discord.ui.Modal):
