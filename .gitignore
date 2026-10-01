@@ -1,0 +1,24 @@
+# Private configuration
+info.json
+.env
+
+# Runtime data
+store.csv
+anonymous_counter.json
+bot.log
+nohup.out
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Backup files
+*.backup
+*.before_*
+
+# Secret keys
+*.key
+*.pem
+*.ppk
